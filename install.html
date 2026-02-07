@@ -23,39 +23,67 @@
       padding: 24px 32px;
       border-radius: 12px;
     }
+
+    a {
+      color: #9ecbff;
+    }
+
+    img {
+      display: block;
+      margin: 12px auto;
+      max-width: 70%;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    code {
+      background: rgba(255,255,255,0.1);
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
   </style>
 </head>
+
 <body>
-  <h1>導入方法</h1>
+  <div class="container">
+    <h1>導入方法</h1>
 
-  <p>Kenma データパックの導入手順です。</p>
+    <p>Kenma データパックの導入手順です。</p>
 
-  <h2>必要なファイル</h2>
-  <ul>
-    <li><a href="kubejs.zip" download>KubeJS データパックをダウンロード</a></li>
-  </ul>
+    <h2>必要なファイル</h2>
+    <ul>
+      <li><a href="kubejs.zip" download>KubeJS データパックをダウンロード</a></li>
+    </ul>
 
-  <h2>手順</h2>
-  <ol>
-    <li>modを導入できる環境にするために CurseForge を導入してください、curse forge 導入方法 で検索するとサイトがたくさんあります</li>
-    <li>CurseForge から Forge 47.4.10 の Minecraft プロファイルを作成し<br>
-      前ページの導入mod解説からmodを導入後、実際にマイクラを起動して仮のワールドを作ります<br><br>
-  <img src="images/curseforge_profile.png"
-       alt="CurseForge プロファイル作成"
-       style="max-width:70%; border:1px solid #ccc;">
-   </li>
-    <li>
-      <code>curseforge/minecraft/Instances/作ったプロファイル名</code> のフォルダを開き、  
-      作成したプロファイルの中身のkube.jsのファイルをダウンロードしたファイルに置き換えます <br><br>
-  <img src="images/install3.png"
-       alt="CurseForge プロファイル作成"
-       style="max-width:70%; border:1px solid #ccc;">
-    </li>
-    <li>CurseForge から再度プロファイルを起動し、Minecraft を起動すれば完成です</li>
-  </ol>
+    <h2>手順</h2>
+    <ol>
+      <li>
+        modを導入できる環境にするために CurseForge を導入してください。  
+        「curse forge 導入方法」で検索すると解説サイトがたくさんあります。
+      </li>
 
-  <p>
-    <a href="index.html">← トップページに戻る</a>
-  </p>
+      <li>
+        CurseForge から Forge 47.4.10 の Minecraft プロファイルを作成し、  
+        前ページの導入mod解説からmodを導入後、実際にマイクラを起動して仮のワールドを作ります。
+
+        <img src="images/curseforge_profile.png" alt="CurseForge プロファイル作成">
+      </li>
+
+      <li>
+        <code>curseforge/minecraft/Instances/作ったプロファイル名</code> のフォルダを開き、  
+        中身の <code>kubejs</code> フォルダをダウンロードしたものに置き換えます。
+
+        <img src="images/install3.png" alt="フォルダの置き換え">
+      </li>
+
+      <li>
+        CurseForge から再度プロファイルを起動し、Minecraft を起動すれば完成です。
+      </li>
+    </ol>
+
+    <p>
+      <a href="index.html">← トップページに戻る</a>
+    </p>
+  </div>
 </body>
 </html>
